@@ -41,7 +41,7 @@ public class Polynomial {
 		return total;
 	}
 	
-	public boolean hasRoot(int x) {
+	public boolean hasRoot(double x) {
 		return (this.evaluate(x) == 0.0);
 	}
 }
